@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gushwork Assignment - Industrial Landing Page">
+    <title>Gushwork UI Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Header -->
+    <header class="main-header" id="main-header">
+        <div class="container nav-container">
+            <div class="logo">Gushwork<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#applications">Applications</a>
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="#contact" class="btn-secondary nav-btn">Request Quote</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="container hero-content fade-in-up">
+                <h1>Built to Last.<br>Engineered to Perform.</h1>
+                <p>Delivering high-quality industrial manufacturing solutions and advanced HDPE piping for complex infrastructure projects worldwide.</p>
+                <div class="hero-buttons">
+                    <a href="#catalogue" class="btn-primary">Request Your Free Catalogue</a>
+                    <a href="#applications" class="btn-outline">Explore Applications</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container stats-grid reveal">
+                <div class="stat-item">
+                    <h3 class="stat-number">30+</h3>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">10k+</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">50+</h3>
+                    <p class="stat-label">Countries Served</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">100%</h3>
+                    <p class="stat-label">Quality Assured</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applications Carousel Section -->
+        <section id="applications" class="applications-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Versatile Applications Across Industries</h2>
+                    <p>Our advanced piping solutions are designed to meet the rigorous demands of various sectors, ensuring reliability and performance.</p>
+                </div>
+
+                <div class="carousel-container reveal">
+                    <button class="carousel-btn prev" id="carousel-prev" aria-label="Previous application">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+
+                    <div class="carousel-viewport">
+                        <div class="carousel-track" id="carousel-track">
+                            <!-- Card 1 -->
+                            <div class="carousel-card">
+                                <div class="card-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1540324155970-163e0310243e?auto=format&fit=crop&q=80&w=800" alt="Fisheries" class="card-image" loading="lazy">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Agriculture & Fisheries</h3>
+                                    <p>Durable, non-toxic piping systems designed for complex irrigation and marine applications.</p>
+                                    <a href="#" class="read-more">Learn more &rarr;</a>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="carousel-card">
+                                <div class="card-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800" alt="Construction" class="card-image" loading="lazy">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Construction & Infrastructure</h3>
+                                    <p>High-density solutions for underground utilities, drainage, and structural integrity.</p>
+                                    <a href="#" class="read-more">Learn more &rarr;</a>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="carousel-card">
+                                <div class="card-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&q=80&w=800" alt="Energy" class="card-image" loading="lazy">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Energy & Mining</h3>
+                                    <p>Robust and chemical-resistant pipelines for safe resource extraction and transport.</p>
+                                    <a href="#" class="read-more">Learn more &rarr;</a>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="carousel-card">
+                                <div class="card-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" alt="Industrial Manufacturing" class="card-image" loading="lazy">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Industrial Manufacturing</h3>
+                                    <p>High-performance pipes engineered to handle extreme pressure and industrial chemicals.</p>
+                                    <a href="#" class="read-more">Learn more &rarr;</a>
+                                </div>
+                            </div>
+                             <!-- Card 5 -->
+                             <div class="carousel-card">
+                                <div class="card-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1604115160351-50e58f001402?auto=format&fit=crop&q=80&w=800" alt="Municipal Water" class="card-image" loading="lazy">
+                                </div>
+                                <div class="card-content">
+                                    <h3>Municipal Water Supply</h3>
+                                    <p>Safe, leak-proof systems perfect for large-scale urban water distribution networks.</p>
+                                    <a href="#" class="read-more">Learn more &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn next" id="carousel-next" aria-label="Next application">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="features" class="process-section">
+            <div class="container">
+                <div class="process-content-wrapper reveal">
+                    <div class="process-text">
+                        <h2>Advanced HDPE Pipe Manufacturing Process</h2>
+                        <ul class="process-list">
+                            <li class="process-item">
+                                <span class="process-number">01</span>
+                                <div>
+                                    <h4>Raw Material Selection</h4>
+                                    <p>We source only the highest grade polyethylene compounds to ensure maximum durability.</p>
+                                </div>
+                            </li>
+                            <li class="process-item">
+                                <span class="process-number">02</span>
+                                <div>
+                                    <h4>Precision Extrusion</h4>
+                                    <p>State-of-the-art extrusion technology guarantees uniform wall thickness and structural integrity.</p>
+                                </div>
+                            </li>
+                            <li class="process-item">
+                                <span class="process-number">03</span>
+                                <div>
+                                    <h4>Rigorous Testing</h4>
+                                    <p>Every batch undergoes severe pressure and stress testing to exceed international standards.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="process-image">
+                        <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=800" alt="Manufacturing equipment" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find answers to common questions about our products, manufacturing processes, and installation services.</p>
+                </div>
+
+                <div class="faq-accordion reveal">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            What is the lifespan of your HDPE pipes?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Our high-density polyethylene (HDPE) pipes are engineered to last for 50 to 100 years, depending on the application, operating pressure, and environmental conditions. They are highly resistant to corrosion, chemical abrasion, and biological growth.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Do you provide custom pipe sizing and fabrication?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer comprehensive custom fabrication services. Our engineering team can work with you to design and manufacture pipes, fittings, and assemblies tailored to your specific project requirements.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            What industries do you primarily serve?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We supply advanced piping solutions to a wide range of industries including municipal water and wastewater, agriculture and irrigation, mining, oil and gas, and industrial manufacturing facilities.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Are your products certified to international standards?
+                            <span class="faq-icon"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. All our manufacturing processes and final products comply with rigorous international standards, including ISO 9001 for quality management and relevant ASTM/AWWA standards for pipe specifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Lead Gen -->
+        <section id="contact" class="lead-gen-section">
+            <div class="container lead-gen-wrapper reveal">
+                <div class="lead-gen-text">
+                    <h2>Ready to upgrade your infrastructure?</h2>
+                    <p>Contact our engineering team to discuss your project requirements and request a comprehensive catalogue of our solutions.</p>
+                </div>
+                <div class="lead-gen-form-container">
+                    <form class="lead-gen-form" id="contactForm" onsubmit="event.preventDefault(); alert('Form submitted!');">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="jobTitle">Job Title</label>
+                            <input type="text" id="jobTitle" placeholder="Project Engineer" required>
+                        </div>
+                        <button type="submit" class="btn-primary form-submit">Request Information</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="logo footer-logo">Gushwork<span>.</span></div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Support</a>
+            </div>
+            <p class="copyright">&copy; 2026 Gushwork UI Assignment. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
